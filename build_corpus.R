@@ -48,3 +48,5 @@ corpus_test <- as.data.frame(corpus_test) %>% rename(text = corpus_test)
 # Save training and test sets to disk
 save(corpus_train, file = "corpus_train.Rdata")
 save(corpus_test, file = "corpus_test.Rdata")
+
+# Next step: Pre-processing using 'pre-process_corpus.R'
