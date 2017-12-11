@@ -30,8 +30,7 @@ corpus_trigrams <- tokenizeNgrams(corpus_df, 3)
 corpus_fourgrams <- tokenizeNgrams(corpus_df, 4)
 corpus_fivegrams <- tokenizeNgrams(corpus_df, 5)
 
-# I recommend saving the results of the tokenizing process as it takes a while
-# to run
+# I recommend saving the results as tokenizing takes a while to run
 save(corpus_bigrams, file = "corpus_bigrams.Rdata")
 save(corpus_trigrams, file = "corpus_trigrams.Rdata")
 save(corpus_fourgrams, file = "corpus_fourgrams.Rdata")
